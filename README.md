@@ -62,9 +62,11 @@ The prediction result is printed out, which typically needs to be interpreted in
 
 #### Acuuracy: ~80.40%
 
-#### Best Parameters
+#### Best Parameters:
 
 1.**Learning Rate**: The default learning rate for Adam optimizer.
+
 2.**Batch Size**: A batch size of 32, which is a common choice and balances memory usage and training speed.
+
 3.**Epochs**: Training for 10 epochs, which should be adjusted based on the performance on the validation set to avoid overfitting or underfitting.
 
